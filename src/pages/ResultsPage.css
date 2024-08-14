@@ -1,0 +1,252 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    color: #202124;
+}
+
+#results-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    border-bottom: 1px solid #dfe1e5;
+    background-color: #fff;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+#results-main-logo img {
+    width: 92px;
+    height: 30px;
+}
+
+#results-search-bar {
+    display: flex;
+    align-items: center;
+    flex: 1;
+    margin-left: 20px;
+}
+
+#results-search-input {
+    flex: 1;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #dfe1e5;
+    border-radius: 24px 0 0 24px;
+    outline: none;
+}
+
+#results-search-button {
+    padding: 10px 20px;
+    font-size: 14px;
+    border: 1px solid #dfe1e5;
+    background-color: #f8f9fa;
+    border-radius: 0 24px 24px 0;
+    cursor: pointer;
+}
+
+#results-header-right {
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+
+#results-header-right a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #5f6368;
+}
+
+#results-header-right #results-apps-icon, #results-header-right #results-user-icon {
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+#results-header-right #apps-icon img, #results-header-right #results-user-icon img {
+    width: 24px;
+    height: 24px;
+}
+
+#results-main-section {
+    padding: 20px;
+}
+
+.results-info {
+    margin-bottom: 20px;
+    font-size: 14px;
+    color: #70757a;
+}
+
+.tabs {
+    display: flex;
+    border-bottom: 1px solid #dfe1e5;
+    margin-bottom: 20px;
+}
+
+.tab {
+    margin-right: 20px;
+    padding: 10px 0;
+    text-decoration: none;
+    color: #5f6368;
+    font-size: 14px;
+    border-bottom: 3px solid transparent;
+}
+
+.tab.active {
+    color: #1a73e8;
+    border-bottom: 3px solid #1a73e8;
+}
+
+#results {
+    max-width: 652px;
+    margin: 0 auto;
+}
+
+.featured-snippet {
+    margin-bottom: 30px;
+}
+
+.featured-snippet h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.featured-snippet p {
+    font-size: 16px;
+    color: #4d5156;
+    margin-bottom: 10px;
+}
+
+.featured-snippet-url {
+    font-size: 14px;
+    color: #1a0dab;
+    text-decoration: none;
+}
+
+.result {
+    margin-bottom: 30px;
+}
+
+.result-title {
+    display: block;
+    font-size: 18px;
+    color: #1a0dab;
+    text-decoration: none;
+    margin-bottom: 5px;
+}
+
+.result-title:hover {
+    text-decoration: underline;
+}
+
+.result-url {
+    display: block;
+    font-size: 14px;
+    color: #006621;
+    text-decoration: none;
+    margin-bottom: 5px;
+}
+
+.result-snippet {
+    font-size: 14px;
+    color: #4d5156;
+}
+
+#images-section {
+    margin-bottom: 30px;
+}
+
+#images-section h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+#images-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+#images-container img {
+    width: calc(25% - 10px);
+    border-radius: 8px;
+}
+
+#news-section {
+    margin-bottom: 30px;
+}
+
+#news-section h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.news-item {
+    margin-bottom: 20px;
+}
+
+.news-title {
+    display: block;
+    font-size: 16px;
+    color: #1a0dab;
+    text-decoration: none;
+    margin-bottom: 5px;
+}
+
+.news-title:hover {
+    text-decoration: underline;
+}
+
+.news-snippet {
+    font-size: 14px;
+    color: #4d5156;
+    margin-bottom: 5px;
+}
+
+.news-source {
+    font-size: 12px;
+    color: #70757a;
+    text-decoration: none;
+}
+
+#results-footer {
+    padding: 20px;
+    background-color: #f2f2f2;
+    text-align: center;
+    border-top: 1px solid #dadce0;
+}
+
+#results-footer-links a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #5f6368;
+}
+
+@media (max-width: 767px) {
+    #results-header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    #results-search-bar {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    #results-header-right {
+        flex-direction: row;
+        margin-left: 0;
+    }
+
+    #results {
+        width: 100%;
+        padding: 0 10px;
+    }
+
+    #images-container img {
+        width: calc(50% - 10px);
+    }
+}
