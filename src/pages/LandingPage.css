@@ -14,7 +14,7 @@ body {
 
 #landing-header {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
     padding: 10px 20px;
     font-size: 14px;
     color: #5f6368;
@@ -58,6 +58,7 @@ body {
 #landing-search-bar {
     display: flex;
     align-items: center;
+    justify-content: space-between;
     width: 100%;
     max-width: 584px;
     padding: 10px 20px;
@@ -72,6 +73,7 @@ body {
     border: none;
     outline: none;
     font-size: 16px;
+    width: 200%;
 }
 
 #landing-search-icons {
