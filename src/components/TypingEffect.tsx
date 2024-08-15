@@ -1,16 +1,16 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 
 const TypingEffect = () => {
-    const [text, setText] = useState(''); // Estado inicial del texto vacío
+    const [text, setText] = useState('');
     const fullText = "Passionate Full Stack Web Developer.";
-    const typingSpeed = 100; // Velocidad de escritura en ms
+    const typingSpeed = 100;
 
     useEffect(() => {
         let index = 0;
 
         const type = () => {
             if (index < fullText.length) {
-                setText(fullText.slice(0, index + 1)); // Actualiza con el texto hasta el índice actual
+                setText(fullText.slice(0, index + 1));
                 index++;
                 setTimeout(type, typingSpeed);
             }
@@ -24,8 +24,8 @@ const TypingEffect = () => {
             <input 
                 type="text" 
                 placeholder={text} 
-                className="landing-search-input"  /* Clase agregada */
-                id="landing-search-input"          /* ID agregado */
+                className="landing-search-input"
+                id="landing-search-input"
                 readOnly
             />
         </div>

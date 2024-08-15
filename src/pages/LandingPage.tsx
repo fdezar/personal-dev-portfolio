@@ -11,13 +11,14 @@ function LandingPage() {
                     <a href="#">Store</a>
                 </div> */}
                 <div id="landing-header-right">
-                    <a href="#">Gmail</a>
-                    <a href="#">Projects</a>
+                    <a href="#">GitHub</a>
+                    <a href="#">LinkedIn</a>
                     <div id="landing-apps-icon">
                         <img src="https://www.gstatic.com/images/branding/product/1x/gsa_white_24dp.png" alt="Google Apps" />
                     </div>
                     <div id="landing-user-icon">
-                        <img src="https://www.gstatic.com/images/branding/product/1x/avatar_circle_blue_512dp.png" alt="User Icon" />
+                        {/* <img src="https://www.gstatic.com/images/branding/product/1x/avatar_circle_blue_512dp.png" alt="User Icon" /> */}
+                        <img src="/src/assets/images/landing-page/gabri-user-image.png" alt="User Icon" />
                     </div>
                 </div>
             </header>
@@ -27,7 +28,7 @@ function LandingPage() {
                     <img src="../../src/assets/images/landing-page/gabri-logo.png" alt="Google Logo" />
                 </div>
                 <div id="landing-search-bar">
-                    <TypingEffect />
+                    {/* <TypingEffect /> */}
                     {/* <input type="text" id="landing-search-input" /> */}
                     <div id="landing-search-icons">
                         <img src="https://www.gstatic.com/images/branding/googlemic/2x/googlemic_color_24dp.png" alt="Mic Icon" />
@@ -45,14 +46,10 @@ function LandingPage() {
                 </div>
                 <div id="landing-footer-bottom">
                     <div id="landing-footer-links-left">
-                        <a href="#">Google UI Inspired Portfolio</a>
-                        <a href="#"></a>
-                        <a href="#"></a>
+                        <p>Google UI Inspired Portfolio</p>
                     </div>
                     <div id="landing-footer-links-right">
-                        <a href="#">GitHub</a>
-                        <a href="#">LinkedIn</a>
-                        <a href="#">Settings</a>
+                        <p>Made by Gabriel Fernandez</p>
                     </div>
                 </div>
             </footer>
