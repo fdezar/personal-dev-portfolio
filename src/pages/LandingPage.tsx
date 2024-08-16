@@ -11,11 +11,12 @@ function LandingPage() {
                     <a href="#">Store</a>
                 </div> */}
                 <div id="landing-header-right">
-                    <a href="#">GitHub</a>
-                    <a href="#">LinkedIn</a>
-                    <div id="landing-apps-icon">
+                    <a href="https://www.github.com/fdezar">GitHub</a>
+                    <a href="https://www.linkedin.com/in/gabrielfdez">LinkedIn</a>
+                    <span className="material-symbols-outlined">apps</span>
+                    {/* <div id="landing-apps-icon">
                         <img src="https://www.gstatic.com/images/branding/product/1x/gsa_white_24dp.png" alt="Google Apps" />
-                    </div>
+                    </div> */}
                     <div id="landing-user-icon">
                         {/* <img src="https://www.gstatic.com/images/branding/product/1x/avatar_circle_blue_512dp.png" alt="User Icon" /> */}
                         <img src="/src/assets/images/landing-page/gabri-user-image.png" alt="User Icon" />
@@ -28,12 +29,13 @@ function LandingPage() {
                     <img src="../../src/assets/images/landing-page/gabri-logo.png" alt="Google Logo" />
                 </div>
                 <div id="landing-search-bar">
-                    {/* <TypingEffect /> */}
+                <span className="material-symbols-outlined search-icon">search</span>
+                    <TypingEffect />
                     {/* <input type="text" id="landing-search-input" /> */}
-                    <div id="landing-search-icons">
+                    {/* <div id="landing-search-icons">
                         <img src="https://www.gstatic.com/images/branding/googlemic/2x/googlemic_color_24dp.png" alt="Mic Icon" />
                         <img src="https://www.gstatic.com/images/branding/product/1x/search_icon_white_24dp.png" alt="Search Icon" />
-                    </div>
+                    </div> */}
                 </div>
                 <div id="landing-main-buttons">
                     <button id="landing-search-button">Gaabri Search</button>
