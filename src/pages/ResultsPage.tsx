@@ -11,7 +11,7 @@ function ResultsPage() {
                     </a>
                 </div>
                 <div id="results-search-bar">
-                    <input type="text" id="results-search-input" value="Gabriel Fernandez" />
+                    <input type="text" id="results-search-input" value="Passionate Full Stack Web Developer." readOnly/>
                     <button id="results-search-button">Search</button>
                 </div>
                 <div id="results-header-right">
@@ -21,7 +21,7 @@ function ResultsPage() {
                         <img src="https://www.gstatic.com/images/branding/product/1x/gsa_white_24dp.png" alt="Google Apps" />
                     </div>
                     <div id="results-user-icon">
-                        <img src="https://www.gstatic.com/images/branding/product/1x/avatar_circle_blue_512dp.png" alt="User Icon" />
+                        <img src="/src/assets/images/results-page/gabri-user-image.png" alt="User Icon" />
                     </div>
                 </div>
             </header>
@@ -30,11 +30,12 @@ function ResultsPage() {
                     <p>About 1,230,000,000 results (0.45 seconds)</p>
                 </div>
                 <div id="tabs">
-                    <a href="#" className="tab active">All</a>
-                    <a href="#" className="tab">Images</a>
-                    <a href="#" className="tab">Videos</a>
-                    <a href="#" className="tab">News</a>
-                    <a href="#" className="tab">Maps</a>
+                    <a href="#" className="tab active">Resume</a>
+                    <a href="#" className="tab">Projects</a>
+                    <a href="#" className="tab">Education</a>
+                    <a href="#" className="tab">Skills</a>
+                    <a href="#" className="tab">Experience</a>
+                    <a href="#" className="tab">Contact</a>
                     <a href="#" className="tab">More</a>
                 </div>
                 <div id="results">

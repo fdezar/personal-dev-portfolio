@@ -1,5 +1,6 @@
 import "./LandingPage.css";
 import TypingEffect from "../components/TypingEffect";
+import { Link } from 'react-router-dom';
 
 function LandingPage() {
 
@@ -18,8 +19,10 @@ function LandingPage() {
                         <img src="https://www.gstatic.com/images/branding/product/1x/gsa_white_24dp.png" alt="Google Apps" />
                     </div> */}
                     <div id="landing-user-icon">
+                        <Link to="/results">
                         {/* <img src="https://www.gstatic.com/images/branding/product/1x/avatar_circle_blue_512dp.png" alt="User Icon" /> */}
                         <img src="/src/assets/images/landing-page/gabri-user-image.png" alt="User Icon" />
+                        </Link>
                     </div>
                 </div>
             </header>
@@ -38,7 +41,7 @@ function LandingPage() {
                     </div> */}
                 </div>
                 <div id="landing-main-buttons">
-                    <button id="landing-search-button">Gaabri Search</button>
+                    <Link to="/results" className="styled-link"><button id="landing-search-button">Gaabri Search</button></Link>
                     <button id="landing-lucky-button">Download CV</button>
                 </div>
             </main>
@@ -51,7 +54,7 @@ function LandingPage() {
                         <p>Google UI Inspired Portfolio</p>
                     </div>
                     <div id="landing-footer-links-right">
-                        <p>Made by Gabriel Fernandez</p>
+                        <p>Made by<Link to="https://www.linkedin.com/in/gabrielfdez" className="styled-link">Gabriel Fernandez</Link></p>
                     </div>
                 </div>
             </footer>
