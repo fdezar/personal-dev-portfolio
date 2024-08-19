@@ -16,17 +16,17 @@ function ResultsPage() {
         <div>
             <header id="results-header">
                 <div id="results-main-logo">
-                    <a href="index.html">
+                    <Link to="/">
                         <img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_92x30dp.png" alt="Google Logo" />
-                    </a>
+                    </Link>
                 </div>
                 <div id="results-search-bar">
                     <input type="text" id="results-search-input" value="Passionate Full Stack Web Developer." readOnly/>
                     <button id="results-search-button">Search</button>
                 </div>
                 <div id="results-header-right">
-                    <a href="#">Gmail</a>
-                    <a href="#">Images</a>
+                    <a href="https://www.github.com/fdezar">GitHub</a>
+                    <a href="https://www.linkedin.com/in/gabrielfdez">LinkedIn</a>
                     <div id="results-apps-icon">
                         <img src="https://www.gstatic.com/images/branding/product/1x/gsa_white_24dp.png" alt="Google Apps" />
                     </div>
@@ -60,9 +60,7 @@ function ResultsPage() {
             </main>
             <footer id="results-footer">
                 <div id="results-footer-links">
-                    <a href="#">Privacy</a>
-                    <a href="#">Terms</a>
-                    <a href="#">Settings</a>
+                    <a href="#">Made by Gabriel Fernandez</a>
                 </div>
             </footer>
         </div>

@@ -54,7 +54,7 @@ function LandingPage() {
                         <p>Google UI Inspired Portfolio</p>
                     </div>
                     <div id="landing-footer-links-right">
-                        <p>Made by<Link to="https://www.linkedin.com/in/gabrielfdez" className="styled-link">Gabriel Fernandez</Link></p>
+                        <p><Link to="https://www.linkedin.com/in/gabrielfdez" className="styled-link">Made by Gabriel Fernandez</Link></p>
                     </div>
                 </div>
             </footer>
