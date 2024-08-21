@@ -28,9 +28,10 @@ function ResultsPage() {
                 <div id="results-header-right">
                     <a href="https://www.github.com/fdezar">GitHub</a>
                     <a href="https://www.linkedin.com/in/gabrielfdez">LinkedIn</a>
-                    <div id="results-apps-icon">
+                    <span className="material-symbols-outlined">apps</span>
+                    {/* <div id="results-apps-icon">
                         <img src="https://www.gstatic.com/images/branding/product/1x/gsa_white_24dp.png" alt="Google Apps" />
-                    </div>
+                    </div> */}
                     <div id="results-user-icon">
                         <img src="/src/assets/images/gabri-user-image.png" alt="User Icon" />
                     </div>
@@ -57,7 +58,7 @@ function ResultsPage() {
                         <Route path="experience" element={<ExperiencePage />} />
                         <Route path="contact" element={<ContactPage />} />
                    </Routes>
-                   <img src="/src/assets/images/results-page/gaaaabri-logo.png" />
+                   <img src="/src/assets/images/results-page/gaaaabri-logo.png" id="gaaaabri-logo" />
                 </div>
             </main>
             <footer id="results-footer">
