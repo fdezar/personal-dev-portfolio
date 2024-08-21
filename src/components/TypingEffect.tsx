@@ -1,12 +1,12 @@
 import { useState, useEffect } from 'react';
 
 const TypingEffect = () => {
-    const [text, setText] = useState('');
-    const fullText = "Passionate Full Stack Web Developer.";
-    const typingSpeed = 100;
+    const [text, setText] = useState<string>('');
+    const fullText: string = "Passionate Full Stack Web Developer.";
+    const typingSpeed: number = 100;
 
     useEffect(() => {
-        let index = 0;
+        let index: number = 0;
 
         const type = () => {
             if (index < fullText.length) {

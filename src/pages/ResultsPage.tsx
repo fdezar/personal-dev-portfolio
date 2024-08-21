@@ -17,7 +17,8 @@ function ResultsPage() {
             <header id="results-header">
                 <div id="results-main-logo">
                     <Link to="/">
-                        <img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_92x30dp.png" alt="Google Logo" />
+                        {/* <img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_92x30dp.png" alt="Google Logo" /> */}
+                        <img src="/src/assets/images/gaabri-logo.png" alt="Gaabri Logo" />
                     </Link>
                 </div>
                 <div id="results-search-bar">
@@ -31,7 +32,7 @@ function ResultsPage() {
                         <img src="https://www.gstatic.com/images/branding/product/1x/gsa_white_24dp.png" alt="Google Apps" />
                     </div>
                     <div id="results-user-icon">
-                        <img src="/src/assets/images/results-page/gabri-user-image.png" alt="User Icon" />
+                        <img src="/src/assets/images/gabri-user-image.png" alt="User Icon" />
                     </div>
                 </div>
             </header>
@@ -56,6 +57,7 @@ function ResultsPage() {
                         <Route path="experience" element={<ExperiencePage />} />
                         <Route path="contact" element={<ContactPage />} />
                    </Routes>
+                   <img src="/src/assets/images/results-page/gaaaabri-logo.png" />
                 </div>
             </main>
             <footer id="results-footer">

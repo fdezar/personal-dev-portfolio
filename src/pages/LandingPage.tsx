@@ -21,7 +21,7 @@ function LandingPage() {
                     <div id="landing-user-icon">
                         <Link to="/results">
                         {/* <img src="https://www.gstatic.com/images/branding/product/1x/avatar_circle_blue_512dp.png" alt="User Icon" /> */}
-                        <img src="/src/assets/images/landing-page/gabri-user-image.png" alt="User Icon" />
+                        <img src="/src/assets/images/gabri-user-image.png" alt="User Icon" />
                         </Link>
                     </div>
                 </div>
@@ -29,7 +29,7 @@ function LandingPage() {
             <main id="landing-main">
                 <div id="landing-logo">
                     {/* <img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" alt="Google Logo" /> */}
-                    <img src="../../src/assets/images/landing-page/gabri-logo.png" alt="Google Logo" />
+                    <img src="../../src/assets/images/gaabri-logo.png" alt="Gaabri Logo" />
                 </div>
                 <div id="landing-search-bar">
                 <span className="material-symbols-outlined search-icon">search</span>
@@ -43,6 +43,7 @@ function LandingPage() {
                 <div id="landing-main-buttons">
                     <Link to="/results" className="styled-link"><button id="landing-search-button">Gaabri Search</button></Link>
                     <button id="landing-lucky-button">Download CV</button>
+                    <a href="/public/downloads/curriculum-gabriel-fernandez.pdf" download>Download file</a>
                 </div>
             </main>
             <footer id="landing-footer">
