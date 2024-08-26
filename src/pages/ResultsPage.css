@@ -18,9 +18,10 @@ body {
     z-index: 1000;
 }
 
-#results-main-logo img {
+#results-main-logo img, #results-main-logo a {
     width: 92px;
-    height: 30px;
+    height: 36px;
+    margin-bottom: -10px;
 }
 
 #results-search-bar {
@@ -212,8 +213,16 @@ body {
     text-decoration: none;
 }
 
+#results-gaaaabri {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
 #gaaaabri-logo {
-    width: 50%;
+    width: 35%;
 }
 
 #results-footer {

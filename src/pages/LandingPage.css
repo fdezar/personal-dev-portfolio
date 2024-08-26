@@ -31,7 +31,7 @@ body {
     align-items: center;
 }
 
-#landing-header-right #landing-apps-icon, #landing-header-right #landing-user-icon {
+#landing-header-right #landing-apps-icon, #landing-header-right {
     margin-left: 15px;
     cursor: pointer;
 }
@@ -39,6 +39,16 @@ body {
 #landing-header-right #landing-apps-icon img, #landing-header-right #landing-user-icon img {
     width: 24px;
     height: 24px;
+}
+
+#landing-user-icon {
+    width: 32px;
+    height: 32px;
+}
+
+#landing-user-icon img {
+    width: 32px;
+    height: 32px;
 }
 
 #landing-main {
@@ -104,6 +114,7 @@ body {
 #landing-search-button, #landing-lucky-button {
     padding: 10px 20px;
     margin: 5px;
+    margin-left: -1px;
     font-size: 14px;
     color: #5f6368;
     background-color: #f8f9fa;
@@ -122,6 +133,10 @@ body {
 #landing-search-button:focus, #landing-lucky-button:focus {
     outline: none;
     border: 1px solid #4285f4;
+}
+
+.styled-link {
+    margin: 0;
 }
 
 #landing-footer {

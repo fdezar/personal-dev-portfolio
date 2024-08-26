@@ -42,8 +42,7 @@ function LandingPage() {
                 </div>
                 <div id="landing-main-buttons">
                     <Link to="/results" className="styled-link"><button id="landing-search-button">Gaabri Search</button></Link>
-                    <button id="landing-lucky-button">Download CV</button>
-                    <a href="/public/downloads/curriculum-gabriel-fernandez.pdf" download>Download file</a>
+                    <a href="/public/downloads/curriculum-gabriel-fernandez.pdf" download><button id="landing-lucky-button">Download CV</button></a>
                 </div>
             </main>
             <footer id="landing-footer">

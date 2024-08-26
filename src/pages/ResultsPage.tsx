@@ -58,7 +58,10 @@ function ResultsPage() {
                         <Route path="experience" element={<ExperiencePage />} />
                         <Route path="contact" element={<ContactPage />} />
                    </Routes>
-                   <img src="/src/assets/images/results-page/gaaaabri-logo.png" id="gaaaabri-logo" />
+                   <div id="results-gaaaabri">
+                        <img src="/src/assets/images/results-page/gaaaabri-logo.png" id="gaaaabri-logo" />
+                        <a href="/results">1</a>
+                   </div>
                 </div>
             </main>
             <footer id="results-footer">
