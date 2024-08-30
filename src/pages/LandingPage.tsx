@@ -14,7 +14,11 @@ function LandingPage() {
                 <div id="landing-header-right">
                     <a href="https://www.github.com/fdezar">GitHub</a>
                     <a href="https://www.linkedin.com/in/gabrielfdez">LinkedIn</a>
-                    <span className="material-symbols-outlined">apps</span>
+                    <div id="landing-apps-icon">
+                        <Link to="/results/projects" id="landing-apps-link">
+                            <span className="material-symbols-outlined">apps</span>
+                        </Link>
+                    </div>
                     {/* <div id="landing-apps-icon">
                         <img src="https://www.gstatic.com/images/branding/product/1x/gsa_white_24dp.png" alt="Google Apps" />
                     </div> */}

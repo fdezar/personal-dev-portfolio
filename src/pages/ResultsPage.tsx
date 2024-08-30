@@ -28,7 +28,11 @@ function ResultsPage() {
                 <div id="results-header-right">
                     <a href="https://www.github.com/fdezar">GitHub</a>
                     <a href="https://www.linkedin.com/in/gabrielfdez">LinkedIn</a>
-                    <span className="material-symbols-outlined">apps</span>
+                    <div id="results-apps-icon">
+                        <Link to="/results/projects" id="results-apps-link">
+                            <span className="material-symbols-outlined">apps</span>
+                        </Link>
+                    </div>
                     {/* <div id="results-apps-icon">
                         <img src="https://www.gstatic.com/images/branding/product/1x/gsa_white_24dp.png" alt="Google Apps" />
                     </div> */}
@@ -38,9 +42,9 @@ function ResultsPage() {
                 </div>
             </header>
             <main id="results-main-section">
-                <div id="results-info">
+                {/* <div id="results-info">
                     <p>About 1,230,000,000 results (0.45 seconds)</p>
-                </div>
+                </div> */}
                 <div id="tabs">
                     <Link to="/results" className={`tab ${isActive('/results') ? 'active' : ''}`}>Resume</Link>
                     <Link to="/results/projects" className={`tab ${isActive('/results/projects') ? 'active' : ''}`}>Projects</Link>
@@ -60,13 +64,13 @@ function ResultsPage() {
                    </Routes>
                    <div id="results-gaaaabri">
                         <img src="/src/assets/images/results-page/gaaaabri-logo.png" id="gaaaabri-logo" />
-                        <a href="/results">1</a>
+                        <Link to="/results" id="results-gaaaabri-link">1</Link>
                    </div>
                 </div>
             </main>
             <footer id="results-footer">
                 <div id="results-footer-links">
-                    <a href="#">Made by Gabriel Fernandez</a>
+                    <a href="https://www.linkedin.com/in/gabrielfdez">Made by Gabriel Fernandez</a>
                 </div>
             </footer>
         </div>

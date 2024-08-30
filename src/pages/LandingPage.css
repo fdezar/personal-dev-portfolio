@@ -23,6 +23,10 @@ body {
 #landing-header a {
     color: #5f6368;
     text-decoration: none;
+    margin: 0 7px;
+}
+
+.material-symbols-outlined {
     margin: 0 10px;
 }
 
@@ -36,14 +40,31 @@ body {
     cursor: pointer;
 }
 
-#landing-header-right #landing-apps-icon img, #landing-header-right #landing-user-icon img {
-    width: 24px;
+#landing-header-right #landing-apps-icon img, #landing-header-right {
     height: 24px;
+    margin-top: 10px;
+    margin-right: 8px;
+}
+
+#landing-apps-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20px;
+}
+
+#landing-apps-link {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    width: 50px;
+    height: 25px;
 }
 
 #landing-user-icon {
     width: 32px;
     height: 32px;
+    margin-left: 15px;
 }
 
 #landing-user-icon img {
@@ -135,6 +156,14 @@ body {
     border: 1px solid #4285f4;
 }
 
+#landing-search-button {
+    margin-right: 5px;
+}
+
+#landing-lucky-button {
+    margin-left: 5px;
+}
+
 .styled-link {
     margin: 0;
 }
@@ -181,6 +210,16 @@ body {
 }
 
 @media (max-width: 767px) {
+
+    #landing-search-button {
+        margin-right: 1px;
+    }
+    
+    #landing-lucky-button {
+        margin-right: 1px;
+        margin-left: 0;
+        padding: 10px 22px;
+    }
     /* #landing-header-left, #landing-header-right {
         display: none;
     } */
