@@ -1,0 +1,20 @@
+#result-header {
+    display: flex;
+    flex-direction: row;
+}
+
+#result-image-border-circle {
+    border-radius: 50%;
+    border: 1px solid #dadce0;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+}
+
+#result-image-border-circle img {
+    width: 50px;
+    height: 50px;
+}
