@@ -45,15 +45,15 @@ function ResultsPage() {
                 {/* <div id="results-info">
                     <p>About 1,230,000,000 results (0.45 seconds)</p>
                 </div> */}
-                <div id="tabs">
+                <nav id="tabs">
                     <Link to="/results" className={`tab ${isActive('/results') ? 'active' : ''}`}>Resume</Link>
                     <Link to="/results/projects" className={`tab ${isActive('/results/projects') ? 'active' : ''}`}>Projects</Link>
                     <Link to="/results/education" className={`tab ${isActive('/results/education') ? 'active' : ''}`}>Education</Link>
                     <Link to="/results/skills" className={`tab ${isActive('/results/skills') ? 'active' : ''}`}>Skills</Link>
                     <Link to="/results/experience" className={`tab ${isActive('/results/experience') ? 'active' : ''}`}>Experience</Link>
                     <Link to="/results/contact" className={`tab ${isActive('/results/contact') ? 'active' : ''}`}>Contact</Link>
-                </div>
-                <div id="results">
+                </nav>
+                <section id="results">
                    <Routes location={location}>
                         <Route path="/" element={<ResumePage />} />
                         <Route path="projects" element={<ProjectsPage />} />
@@ -66,7 +66,7 @@ function ResultsPage() {
                         <img src="/src/assets/images/results-page/gaaaabri-logo.png" id="gaaaabri-logo" />
                         <Link to="/results" id="results-gaaaabri-link">1</Link>
                    </div>
-                </div>
+                </section>
             </main>
             <footer id="results-footer">
                 <div id="results-footer-links">

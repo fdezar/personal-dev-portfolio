@@ -70,8 +70,8 @@ function ProjectsPage() {
 
     return (
         <div>
-            <Result project={ projectsArray[0] }/>
-            <Result project={ projectsArray[1] }/>
+            <Result result={ projectsArray[0] }/>
+            <Result result={ projectsArray[1] }/>
         </div>
     )
 }

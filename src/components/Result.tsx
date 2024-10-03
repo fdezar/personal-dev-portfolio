@@ -1,6 +1,6 @@
 import "./Result.css"
 
-const Result = ({ project }) => {
+const Result = ({ result }) => {
 
     return (
         <div>
@@ -8,18 +8,18 @@ const Result = ({ project }) => {
                 <div id="result-header">
                     <div id="result-image-div">
                         <div id="result-image-border-circle">
-                            <img src="/src/assets/images/projects-page/silk-logo.png"/>
+                            <img src={result.image}/>
                         </div>
                     </div>
                     <div id="result-title-and-web">
-                        <p>{project.header}</p>
-                        <p>https://silk-project.vercel.app</p>
+                        <p>{result.header}</p>
+                        <p>{result.url}</p>
                     </div>
                 </div>
             {/* <a href="#" className="result-url">https://en.wikipedia.org/wiki/Gabriel_Fernandez</a> */}
-                <a href="#" className="result-title">Silk: Your Productivity App</a>
+                <a href="#" className="result-title">{result.title}</a>
                 
-                <p className="result-snippet">Silk is a React and Vite app that lets you...</p>
+                <p className="result-snippet">{result.description}</p>
             </div>
         </div>
     )
