@@ -1,38 +1,28 @@
 const resumeArray = [
     {
-        image: "/src/assets/images/projects-page/silk-logo.png",
-        header: "My Projects",
-        url: "https://projects",
         title: "My Projects",
+        url: "/projects",
         description: "See some of my projects!"
     },
     {
-        image: "/src/assets/images/projects-page/silk-logo.png",
-        header: "My Skills",
+        title: "My Skills",
+        url: "/skills",
+        description: "React, NodeJS, ExpressJS, TypeScript"
+    },
+    {
+        title: "My Education",
         url: "https://projects",
-        title: "My Projects",
         description: "See some of my projects!"
     },
     {
-        image: "/src/assets/images/projects-page/silk-logo.png",
-        header: "My Education",
-        url: "https://projects",
-        title: "My Projects",
-        description: "See some of my projects!"
-    },
-    {
-        image: "/src/assets/images/projects-page/silk-logo.png",
-        header: "What I'm working on right now?",
+        title: "What I'm working on right now?",
         url: "https://www.github.com/fdezar",
-        title: "My Proj",
         description: "See some of my projects!"
     },
     {
-        image: "/src/assets/images/projects-page/silk-logo.png",
-        header: "My latest LinkedIn publications",
-        url: "https://projects",
-        title: "My Projects",
-        description: "See some of my projects!"
+        title: "My latest LinkedIn publications",
+        url: "https://www.linkedin.com/in/gabrielfdez",
+        description: "Sometimes I share my activity on LinkedIn. Watch out the latest!"
     },
 
 ]
