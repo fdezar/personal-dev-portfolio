@@ -17,7 +17,7 @@ const Result = ({ result }) => {
                     </div>
                 </div>
             {/* <a href="#" className="result-url">https://en.wikipedia.org/wiki/Gabriel_Fernandez</a> */}
-                <a href="#" className="result-title">{result.title}</a>
+                <a href="#" id="result-title">{result.title}</a>
                 
                 <p className="result-snippet">{result.description}</p>
             </div>

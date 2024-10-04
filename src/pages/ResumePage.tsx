@@ -1,3 +1,5 @@
+import ClassicResult from "../components/ClassicResult";
+
 const resumeArray = [
     {
         title: "My Projects",
@@ -17,14 +19,13 @@ const resumeArray = [
     {
         title: "What I'm working on right now?",
         url: "https://www.github.com/fdezar",
-        description: "See some of my projects!"
+        description: "My GitHub is always updated with my latest works."
     },
     {
         title: "My latest LinkedIn publications",
         url: "https://www.linkedin.com/in/gabrielfdez",
         description: "Sometimes I share my activity on LinkedIn. Watch out the latest!"
     },
-
 ]
 
 function ResumePage() {
@@ -58,18 +59,13 @@ function ResumePage() {
 
             <hr />
 
-            <div className="result">
-                <a href="#" className="result-title">My Projects</a>
-                <a href="#" className="result-url">https://en.wikipedia.org/wiki/Gabriel_Fernandez</a>
-                <p className="result-snippet">Some info.</p>
-            </div>
-            <div className="result">
-                <a href="#" className="result-title">My Skills</a>
-                <a href="#" className="result-url">https://programming.com/wiki/Gabriel</a>
-                <p className="result-snippet">Some info.</p>
-            </div>
+            <ClassicResult result={ resumeArray[0] }/>
+            <ClassicResult result={ resumeArray[1] }/>
+            <ClassicResult result={ resumeArray[2] }/>
+            <ClassicResult result={ resumeArray[3] }/>
+            <ClassicResult result={ resumeArray[4] }/>
         
-            <section id="news-section">
+            {/* <section id="news-section">
                 <h2>News</h2>
                 <div className="news-item">
                     <a href="#" className="news-title">What I'm working on right now?</a>
@@ -81,7 +77,7 @@ function ResumePage() {
                     <p className="news-snippet">Inspiring.</p>
                     <a href="#" className="news-source">Fernandez - 5 hours ago</a>
                 </div>
-            </section>
+            </section> */}
 
             <aside>
                 <div>
