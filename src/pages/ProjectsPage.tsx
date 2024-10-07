@@ -72,6 +72,13 @@ function ProjectsPage() {
         <div>
             <Result result={ projectsArray[0] }/>
             <Result result={ projectsArray[1] }/>
+            <Result result={ projectsArray[2] }/>
+            <Result result={ projectsArray[3] }/>
+            <Result result={ projectsArray[4] }/>
+            <Result result={ projectsArray[5] }/>
+            <Result result={ projectsArray[6] }/>
+            <Result result={ projectsArray[7] }/>
+            <Result result={ projectsArray[8] }/>
         </div>
     )
 }

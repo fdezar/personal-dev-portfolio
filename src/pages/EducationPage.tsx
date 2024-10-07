@@ -19,7 +19,7 @@ const educationArray = [
     {
         image: "/src/assets/images/education-page/freecodecamp-logo.jpeg",
         header: "freeCodeCamp",
-        url: "https://silk-project.vercel.app",
+        url: "ago. 2022 - ago. 2023",
         title: "freeCodeCamp",
         description: `
             4 Certificates of Completion | +1200h | Front End & Back End
@@ -75,21 +75,21 @@ const educationArray = [
         header: "University of Barcelona",
         url: "sept. 2021 - jul. 2023",
         title: "Psychosocial Intervention Master's Degree",
-        description: "Silk is a Single-Page Full Stack Productivity App that lets users create his own notes, Kanban with Drag and Drop (only frontend), Todolist and use a Pomodoro clock. Also features a CRUD user system with JSON Web Token authentication. Built with React.js, Vite, Material UI, Node.js, Express.js, MongoDB, and more."
+        description: "Master's Degree in UB."
     },
     {
         image: "/src/assets/images/education-page/university-of-girona-logo.jpeg",
         header: "University of Girona",
         url: "sept. 2017 - jun. 2021",
         title: "Social Education Degree",
-        description: "Silk is a Single-Page Full Stack Productivity App that lets users create his own notes, Kanban with Drag and Drop (only frontend), Todolist and use a Pomodoro clock. Also features a CRUD user system with JSON Web Token authentication. Built with React.js, Vite, Material UI, Node.js, Express.js, MongoDB, and more."
+        description: "Social Education Degree in UdG."
     },
     {
-        image: "/src/assets/images/projects-page/silk-logo.png",
+        image: "/src/assets/images/education-page/university-of-girona-logo.jpeg",
         header: "University of Girona",
         url: "oct. 2017",
         title: "B2 English Certificate",
-        description: "Silk is a Single-Page Full Stack Productivity App that lets users create his own notes, Kanban with Drag and Drop (only frontend), Todolist and use a Pomodoro clock. Also features a CRUD user system with JSON Web Token authentication. Built with React.js, Vite, Material UI, Node.js, Express.js, MongoDB, and more."
+        description: "B2 English."
     },
 ]
 
