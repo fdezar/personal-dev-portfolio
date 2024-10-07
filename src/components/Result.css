@@ -37,6 +37,14 @@
     height: 21px;
 }
 
+#result-title {
+    display: block;
+    font-size: 18px;
+    color: #1a0dab;
+    text-decoration: none;
+    margin-bottom: -5px;
+}
+
 #result-title-and-web p {
     font-size: 14px;
 }

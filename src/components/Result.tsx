@@ -19,7 +19,7 @@ const Result = ({ result }) => {
             {/* <a href="#" className="result-url">https://en.wikipedia.org/wiki/Gabriel_Fernandez</a> */}
                 <a href="#" id="result-title">{result.title}</a>
                 
-                <p className="result-snippet">{result.description}</p>
+                <p className="result-snippet" dangerouslySetInnerHTML={{ __html: result.description.replace(/\n/g, '<br/>') }}></p>
             </div>
         </div>
     )
