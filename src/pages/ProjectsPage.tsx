@@ -1,4 +1,4 @@
-import Result from "../components/Result";
+import Result from "../components/ProjectsResult";
 
 const projectsArray = [
     {
