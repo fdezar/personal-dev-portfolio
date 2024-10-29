@@ -1,3 +1,9 @@
+const contactArray = [
+    {
+        
+    }
+]
+
 function ContactPage() {
 
     return (
