@@ -136,24 +136,11 @@ function SkillsPage() {
 
     return (
         <div>
-            <SkillsResult result={ skillsArray[0] }/>
-            <SkillsResult result={ skillsArray[1] }/>
-            <SkillsResult result={ skillsArray[2] }/>
-            <SkillsResult result={ skillsArray[3] }/>
-            <SkillsResult result={ skillsArray[4] }/>
-            <SkillsResult result={ skillsArray[5] }/>
-            <SkillsResult result={ skillsArray[6] }/>
-            <SkillsResult result={ skillsArray[7] }/>
-            <SkillsResult result={ skillsArray[8] }/>
-            <SkillsResult result={ skillsArray[9] }/>
-            <SkillsResult result={ skillsArray[10] }/>
-            <SkillsResult result={ skillsArray[11] }/>
-            <SkillsResult result={ skillsArray[12] }/>
-            <SkillsResult result={ skillsArray[13] }/>
-            <SkillsResult result={ skillsArray[14] }/>
-            <SkillsResult result={ skillsArray[15] }/>
+            {skillsArray.map((skill, index) => (
+                <SkillsResult key={index} result={skill} />
+            ))}
         </div>
-    )
+    );
 }
 
 export default SkillsPage;

@@ -65,11 +65,9 @@ function ExperiencePage() {
 
     return (
         <div>
-            <Result result={ experienceArray[0] }/>
-            <Result result={ experienceArray[1] }/>
-            <Result result={ experienceArray[2] }/>
-            <Result result={ experienceArray[3] }/>
-            <Result result={ experienceArray[4] }/>
+            {experienceArray.map((experience, index) => (
+                <Result key={index} result={experience} />
+            ))}
         </div>
     )
 }
