@@ -7,7 +7,7 @@ const contactArray = [
         subheader: "gfernandezareas@gmail.com",
         url: "mailto:gfernandezareas@gmail.com",
         title: "Email",
-        description: "JavaScript is a versatile language primarily used for creating interactive web pages and can run on both the client and server sides."
+        description: "Click here to write me an email!"
     },
     {
         image: "/src/assets/images/contact-page/github-logo.png",
@@ -15,7 +15,7 @@ const contactArray = [
         subheader: "https://www.github.com/fdezar",
         url: "https://www.github.com/fdezar",
         title: "GitHub",
-        description: "JavaScript is a versatile language primarily used for creating interactive web pages and can run on both the client and server sides."
+        description: "See my latest projects!"
     },
     {
         image: "/src/assets/images/contact-page/linkedin-logo.webp",
@@ -23,7 +23,7 @@ const contactArray = [
         subheader: "https://www.linkedin.com/in/gabrielfdez",
         url: "https://www.linkedin.com/in/gabrielfdez",
         title: "LinkedIn",
-        description: "JavaScript is a versatile language primarily used for creating interactive web pages and can run on both the client and server sides."
+        description: "Follow my latest publications!"
     },
     {
         image: "/src/assets/images/contact-page/phone-icon.png",
@@ -31,7 +31,7 @@ const contactArray = [
         subheader: "Ask for it!",
         url: "",
         title: "Phone number",
-        description: "Due to privacy, I decided to keep my number private. Ask my phone number on any of my contact options!."
+        description: "Due to privacy, I decided to keep my number private. Ask my phone number on any of my other contact options!"
     },
 
     
