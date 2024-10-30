@@ -1,6 +1,6 @@
 import "./Result.css"
 
-const ProjectsResult = ({ result }) => {
+const SkillsResult = ({ result }) => {
 
     return (
         <div>
@@ -14,7 +14,7 @@ const ProjectsResult = ({ result }) => {
                     </div>
                     <div id="result-title-and-web">
                         <p>{result.header}</p>
-                        <p>{result.url}</p>
+                        <p>{result.subheader}</p>
                     </div>
                 </div>
             {/* <a href="#" className="result-url">https://en.wikipedia.org/wiki/Gabriel_Fernandez</a> */}
@@ -27,4 +27,4 @@ const ProjectsResult = ({ result }) => {
     )
 }
 
-export default ProjectsResult;
+export default SkillsResult;
