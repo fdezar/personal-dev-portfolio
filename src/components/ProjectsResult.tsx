@@ -1,6 +1,16 @@
 import "./Result.css"
 
-const ProjectsResult = ({ result }) => {
+interface ProjectsResultProps {
+    result: {
+        image: string;
+        header: string;
+        url: string;
+        title: string;
+        description: string;
+    };
+}
+
+const ProjectsResult: React.FC<ProjectsResultProps> = ({ result }) => {
 
     return (
         <div>

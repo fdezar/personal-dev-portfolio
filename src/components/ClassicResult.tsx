@@ -1,4 +1,12 @@
-const ClassicResult = ({ result }) => {
+interface ClassicResultProps {
+    result: {
+        title: string;
+        url: string;
+        description: string;
+    };
+}
+
+const ClassicResult: React.FC<ClassicResultProps> = ({ result }) => {
 
     return (
         <div className="result">

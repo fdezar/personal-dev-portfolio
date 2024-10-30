@@ -1,6 +1,17 @@
 import "./Result.css"
 
-const SkillsResult = ({ result }) => {
+interface SkillsResultProps {
+    result: {
+        image: string;
+        header: string;
+        subheader: string;
+        url: string;
+        title: string;
+        description: string;
+    };
+}
+
+const SkillsResult: React.FC<SkillsResultProps> = ({ result }) => {
 
     return (
         <div>

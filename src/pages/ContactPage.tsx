@@ -5,7 +5,7 @@ const contactArray = [
         image: "/src/assets/images/contact-page/email-icon.png",
         header: "Email",
         subheader: "gfernandezareas@gmail.com",
-        url: "https://www.javascript.com/",
+        url: "mailto:gfernandezareas@gmail.com",
         title: "Email",
         description: "JavaScript is a versatile language primarily used for creating interactive web pages and can run on both the client and server sides."
     },

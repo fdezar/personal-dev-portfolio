@@ -1,6 +1,17 @@
 import "./Result.css"
 
-const EducationResult = ({ result }) => {
+interface EducationResultProps {
+    result: {
+        image: string;
+        header: string;
+        subheader: string;
+        url: string;
+        title: string;
+        description: string;
+    };
+}
+
+const EducationResult: React.FC<EducationResultProps> = ({ result }) => {
 
     return (
         <div>

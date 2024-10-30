@@ -1,6 +1,16 @@
 import "./Result.css"
 
-const ExperienceResult = ({ result }) => {
+interface ExperienceResultProps {
+    result: {
+        image: string;
+        header: string;
+        url: string;
+        title: string;
+        description: string;
+    };
+}
+
+const ExperienceResult: React.FC<ExperienceResultProps> = ({ result }) => {
 
     return (
         <div>

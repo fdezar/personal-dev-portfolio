@@ -1,6 +1,17 @@
 import "./Result.css"
 
-const ContactResult = ({ result }) => {
+interface ContactResultProps {
+    result: {
+        image: string;
+        header: string;
+        subheader: string;
+        url: string;
+        title: string;
+        description: string;
+    };
+}
+
+const ContactResult: React.FC<ContactResultProps> = ({ result }) => {
 
     return (
         <div>

@@ -1,6 +1,16 @@
 import "./ParagraphResult.css"
 
-const ParagraphEducationResult = ({ result }) => {
+interface ParagraphEducationResultProps {
+    result: {
+        image: string;
+        header: string;
+        url: string;
+        title: string;
+        description: string;
+    };
+}
+
+const ParagraphEducationResult: React.FC<ParagraphEducationResultProps> = ({ result }) => {
 
     return (
         <div>
