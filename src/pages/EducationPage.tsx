@@ -2,7 +2,7 @@ import Result from "../components/ProjectsResult";
 
 const educationArray = [
     {
-        image: "/src//assets/images/education-page/ironhack-spain-logo.jpeg",
+        image: "/src/assets/images/education-page/ironhack-spain-logo.jpeg",
         header: "Ironhack",
         subheader: "sep. 2023 - mar. 2024",
         url: "sep. 2023 - mar. 2024",

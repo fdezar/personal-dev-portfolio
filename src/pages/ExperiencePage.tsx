@@ -2,7 +2,7 @@ import Result from "../components/ProjectsResult.tsx";
 
 const experienceArray = [
     {
-        image: "/src//assets/images/experience-page/coordinadora-entitats-poble-sec-logo.png",
+        image: "/src/assets/images/experience-page/coordinadora-entitats-poble-sec-logo.png",
         header: "Coordinadora d'Entitats de Poble Sec",
         url: "feb. 2023 - apr. 2023",
         title: "Psychosocial Interventor",
@@ -14,7 +14,7 @@ const experienceArray = [
         `
     },
     {
-        image: "/src//assets/images/experience-page/plataforma-educativa-logo.jpeg",
+        image: "/src/assets/images/experience-page/plataforma-educativa-logo.jpeg",
         header: "Plataforma Educativa",
         url: "dec. 2020 - feb. 2021",
         title: "Social Educator",
@@ -26,7 +26,7 @@ const experienceArray = [
         `
     },
     {
-        image: "/src//assets/images/experience-page/plataforma-educativa-logo.jpeg",
+        image: "/src/assets/images/experience-page/plataforma-educativa-logo.jpeg",
         header: "Plataforma Educativa",
         url: "oct. 2020 - jan. 2021",
         title: "Social Educator",
@@ -38,7 +38,7 @@ const experienceArray = [
         `
     },
     {
-        image: "/src//assets/images/experience-page/xiprers-al-vent-logo.jpeg",
+        image: "/src/assets/images/experience-page/xiprers-al-vent-logo.jpeg",
         header: "AEIG Xiprers al Vent",
         url: "sept. 2018 - aug. 2020",
         title: "Scout Leader",
@@ -49,7 +49,7 @@ const experienceArray = [
         `
     },
     {
-        image: "/src//assets/images/experience-page/caritas-logo.png",
+        image: "/src/assets/images/experience-page/caritas-logo.png",
         header: "Càritas Diocesana de Girona",
         url: "nov. 2019 - mar. 2020",
         title: "Social Educator",
