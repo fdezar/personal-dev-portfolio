@@ -1,10 +1,11 @@
-import Result from "../components/ProjectsResult.tsx";
+import ExperienceResult from "../components/ExperienceResult.tsx";
 
 const experienceArray = [
     {
         image: "/src/assets/images/experience-page/coordinadora-entitats-poble-sec-logo.png",
         header: "Coordinadora d'Entitats de Poble Sec",
-        url: "feb. 2023 - apr. 2023",
+        subheader: "feb. 2023 - apr. 2023",
+        url: "https://poblesec.org/",
         title: "Psychosocial Interventor",
         description: `
             - Provided support and companionship to elderly individuals in isolated situations.
@@ -16,7 +17,8 @@ const experienceArray = [
     {
         image: "/src/assets/images/experience-page/plataforma-educativa-logo.jpeg",
         header: "Plataforma Educativa",
-        url: "dec. 2020 - feb. 2021",
+        subheader: "dec. 2020 - feb. 2021",
+        url: "https://plataformaeducativa.org/portal/",
         title: "Social Educator",
         description: `
             - Made impactful substitutions in youth residential centers. 
@@ -28,7 +30,8 @@ const experienceArray = [
     {
         image: "/src/assets/images/experience-page/plataforma-educativa-logo.jpeg",
         header: "Plataforma Educativa",
-        url: "oct. 2020 - jan. 2021",
+        subheader: "oct. 2020 - jan. 2021",
+        url: "https://plataformaeducativa.org/portal/",
         title: "Social Educator",
         description: `
             - Practice in a youth residential center with focus on migrant population. 
@@ -40,7 +43,8 @@ const experienceArray = [
     {
         image: "/src/assets/images/experience-page/xiprers-al-vent-logo.jpeg",
         header: "AEIG Xiprers al Vent",
-        url: "sept. 2018 - aug. 2020",
+        subheader: "sept. 2018 - aug. 2020",
+        url: "https://www.instagram.com/aeigxiprersalvent/?hl=es",
         title: "Scout Leader",
         description: `
             - Dedicated scout leader with 2 years of experience. 
@@ -51,7 +55,8 @@ const experienceArray = [
     {
         image: "/src/assets/images/experience-page/caritas-logo.png",
         header: "Càritas Diocesana de Girona",
-        url: "nov. 2019 - mar. 2020",
+        subheader: "nov. 2019 - mar. 2020",
+        url: "https://www.caritasgirona.cat/",
         title: "Social Educator",
         description: `
             - Provided personal and emotional guidance to workers in an insertion enterprise.
@@ -66,7 +71,7 @@ function ExperiencePage() {
     return (
         <div>
             {experienceArray.map((experience, index) => (
-                <Result key={index} result={experience} />
+                <ExperienceResult key={index} result={experience} />
             ))}
         </div>
     )

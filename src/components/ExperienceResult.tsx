@@ -4,6 +4,7 @@ interface ExperienceResultProps {
     result: {
         image: string;
         header: string;
+        subheader: string;
         url: string;
         title: string;
         description: string;
@@ -24,7 +25,7 @@ const ExperienceResult: React.FC<ExperienceResultProps> = ({ result }) => {
                     </div>
                     <div id="result-title-and-web">
                         <p>{result.header}</p>
-                        <p>{result.url}</p>
+                        <p>{result.subheader}</p>
                     </div>
                 </div>
             {/* <a href="#" className="result-url">https://en.wikipedia.org/wiki/Gabriel_Fernandez</a> */}
