@@ -4,14 +4,14 @@ A personal developer portfolio built with React, showcasing projects, experience
 
 ## Table of Contents 📑
 
-- [About 📖](#about)
-- [Technologies 💻](#technologies)
-- [Installation ⚙️](#installation)
-- [Available Scripts 📜](#available-scripts)
-- [Project Structure 📁](#project-structure)
-- [Features ✨](#features)
-- [Contributing 🤝](#contributing)
-- [License 📜](#license)
+- [About](#about)
+- [Technologies](#technologies)
+- [Installation](#installation)
+- [Available Scripts](#available-scripts)
+- [Project Structure](#project-structure)
+- [Features](#features)
+- [Contributing](#contributing)
+- [License](#license)
 
 ## About 📖
 
