@@ -1,30 +1,113 @@
-# React + TypeScript + Vite
+# Fdezar's Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A personal developer portfolio built with React, showcasing projects, experience, and contact information.
 
-Currently, two official plugins are available:
+## Table of Contents
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- [About](#about)
+- [Technologies](#technologies)
+- [Installation](#installation)
+- [Available Scripts](#available-scripts)
+- [Project Structure](#project-structure)
+- [Features](#features)
+- [Contributing](#contributing)
+- [License](#license)
 
-## Expanding the ESLint configuration
+## About
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+This project is a personal developer portfolio designed to showcase my skills, projects, and experience in a single-page application (SPA) format. It includes various sections for projects, experience, and contact details.
 
-- Configure the top-level `parserOptions` property like this:
+## Technologies
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json', './tsconfig.app.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+- React
+- React Router for navigation
+- Vite for fast development and build processes
+- TypeScript for type safety
+- ESLint for code linting
+
+## Installation
+
+1. **Clone the repository**:
+
+```bash
+   git clone https://github.com/your-username/personal-portfolio.git
+   cd personal-portfolio
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+2. **Install dependencies**:
+
+```bash
+   npm install
+```
+
+3. **Run the application**:
+
+```bash
+   npm run dev
+```
+
+   This will start the development server, and you can view the application by navigating to http://localhost:5173 in your browser.
+
+4. **Build for production**:
+
+```bash
+   npm run build
+```
+
+   This command will create an optimized production build in the `dist` folder.
+
+5. **Preview the production build**:
+
+```bash
+   npm run preview
+```
+
+   This will serve the built application locally for testing the production build.
+
+## Available Scripts
+
+- **Development**: Starts the app in development mode.
+
+```bash
+  npm run dev
+```
+
+- **Build**: Builds the app for production.
+
+```bash
+  npm run build
+```
+
+- **Preview**: Previews the production build locally.
+
+```bash
+  npm run preview
+```
+
+- **Lint**: Runs ESLint to check for code quality issues.
+
+```bash
+  npm run lint
+```
+
+## Project Structure
+
+- **src**: Contains all source files, including components, assets, and routes.
+- **public**: Stores static assets like images.
+- **index.html**: The entry HTML file.
+- **vite.config.ts**: Configuration for Vite.
+- **package.json**: Project metadata and scripts.
+
+## Features
+
+- **Projects Section**: Showcases various projects with descriptions and links.
+- **Experience Section**: Highlights professional experience and relevant skills.
+- **Contact Section**: Provides a way to reach out via email or social media.
+
+## Contributing
+
+Contributions are welcome! Please open an issue or submit a pull request.
+
+## License
+
+This project is licensed under the MIT License.
