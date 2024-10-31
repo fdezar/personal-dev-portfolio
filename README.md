@@ -1,23 +1,23 @@
-# Fdezar's Portfolio
+# My Personal Portfolio
 
 A personal developer portfolio built with React, showcasing projects, experience, and contact information.
 
-## Table of Contents
+## Table of Contents 📑
 
-- [About](#about)
-- [Technologies](#technologies)
-- [Installation](#installation)
-- [Available Scripts](#available-scripts)
-- [Project Structure](#project-structure)
-- [Features](#features)
-- [Contributing](#contributing)
-- [License](#license)
+- [About 📖](#about)
+- [Technologies 💻](#technologies)
+- [Installation ⚙️](#installation)
+- [Available Scripts 📜](#available-scripts)
+- [Project Structure 📁](#project-structure)
+- [Features ✨](#features)
+- [Contributing 🤝](#contributing)
+- [License 📜](#license)
 
-## About
+## About 📖
 
 This project is a personal developer portfolio designed to showcase my skills, projects, and experience in a single-page application (SPA) format. It includes various sections for projects, experience, and contact details.
 
-## Technologies
+## Technologies 💻
 
 - React
 - React Router for navigation
@@ -25,7 +25,7 @@ This project is a personal developer portfolio designed to showcase my skills, p
 - TypeScript for type safety
 - ESLint for code linting
 
-## Installation
+## Installation ⚙️
 
 1. **Clone the repository**:
 
@@ -64,7 +64,7 @@ This project is a personal developer portfolio designed to showcase my skills, p
 
    This will serve the built application locally for testing the production build.
 
-## Available Scripts
+## Available Scripts 📜
 
 - **Development**: Starts the app in development mode.
 
@@ -90,7 +90,7 @@ This project is a personal developer portfolio designed to showcase my skills, p
   npm run lint
 ```
 
-## Project Structure
+## Project Structure 📁
 
 - **src**: Contains all source files, including components, assets, and routes.
 - **public**: Stores static assets like images.
@@ -98,16 +98,16 @@ This project is a personal developer portfolio designed to showcase my skills, p
 - **vite.config.ts**: Configuration for Vite.
 - **package.json**: Project metadata and scripts.
 
-## Features
+## Features ✨
 
 - **Projects Section**: Showcases various projects with descriptions and links.
 - **Experience Section**: Highlights professional experience and relevant skills.
 - **Contact Section**: Provides a way to reach out via email or social media.
 
-## Contributing
+## Contributing 🤝
 
 Contributions are welcome! Please open an issue or submit a pull request.
 
-## License
+## License 📜
 
 This project is licensed under the MIT License.
