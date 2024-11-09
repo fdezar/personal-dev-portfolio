@@ -1,4 +1,4 @@
-import Result from "../components/ProjectsResult";
+import Result from "../components/Result";
 
 const educationArray = [
     {
@@ -7,14 +7,12 @@ const educationArray = [
         subheader: "sep. 2023 - mar. 2024",
         url: "sep. 2023 - mar. 2024",
         title: "Web Development Bootcamp",
-        description: `
-            Syllabus:
+        description: `Syllabus:
             - FrontEnd: HTML5, CSS3, JavaScript ES6, Bootstrap.
             - BackEnd: MongoDB, Node.js, Express.js, Handlebars, Cloudinary, Nodemailer, BCrypt, Mongoose, REST APIs, Json-Server, Postman, NPM.
             - Full-Stack: MERN - MongoDB, Express.js, React.js, Vite & Node.js.
             - Tools: MongoDB Compass, Visual Studio Code, GitHub.
             - Deployment with GitHub pages, Vercel.Syllabus: - FrontEnd: HTML5, CSS3, JavaScript ES6, Bootstrap. - BackEnd: MongoDB, Node.js, Express.js, Handlebars, Cloudinary, Nodemailer, BCrypt, Mongoose, REST APIs, Json-Server, Postman, NPM. - Full-Stack: MERN - MongoDB, Express.js, React.js, Vite & Node.js. - Tools: MongoDB Compass, Visual Studio Code, GitHub. - Deployment with GitHub pages, Vercel.
-
         `
     },
     {
@@ -23,8 +21,7 @@ const educationArray = [
         subheader: "ago. 2022 - ago. 2023",
         url: "ago. 2022 - ago. 2023",
         title: "freeCodeCamp",
-        description: `
-            4 Certificates of Completion | +1200h | Front End & Back End
+        description: `4 Certificates of Completion | +1200h | Front End & Back End
 
             Syllabus:
             - Responsive Web Design: HTML & CSS
@@ -39,8 +36,7 @@ const educationArray = [
         subheader: "jul. 2024 - jul. 2024",
         url: "jul. 2024 - jul. 2024",
         title: "Udemy",
-        description: `
-            2 Certificates of Completion | Redux and Test Driven Development
+        description: `2 Certificates of Completion | Redux and Test Driven Development
 
             Courses:
             - The Ultimate Redux Course 2023 - [LATEST Redux-toolkit]
@@ -53,8 +49,7 @@ const educationArray = [
         subheader: "jun. 2024 - jun. 2024",
         url: "jun. 2024 - jun. 2024",
         title: "EDTeam",
-        description: `
-            2 Certificates of Completion | TypeScript and React Hooks
+        description: `2 Certificates of Completion | TypeScript and React Hooks
 
             Courses:
             - TypeScript desde cero
@@ -67,8 +62,7 @@ const educationArray = [
         subheader: "jul. 2022 - ago. 2022",
         url: "jul. 2022 - ago. 2022",
         title: "Google Activate",
-        description: `
-            2 Certificates of Completion | HTML & CSS
+        description: `2 Certificates of Completion | HTML & CSS
 
             Courses:
             - Introducción al Desarrollo Web I
@@ -105,14 +99,9 @@ function EducationPage() {
 
     return (
         <div>
-            <Result result={ educationArray[0] } />
-            <Result result={ educationArray[1] } />
-            <Result result={ educationArray[2] } />
-            <Result result={ educationArray[3] } />
-            <Result result={ educationArray[4] } />
-            <Result result={ educationArray[5] } />
-            <Result result={ educationArray[6] } />
-            <Result result={ educationArray[7] } />
+            {educationArray.map((experience, index) => (
+                <Result key={index} result={experience} />
+            ))}
         </div>
     )
 }

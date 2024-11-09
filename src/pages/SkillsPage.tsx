@@ -1,4 +1,4 @@
-import SkillsResult from "../components/SkillsResult";
+import Result from "../components/Result";
 
 const skillsArray = [
     {
@@ -137,7 +137,7 @@ function SkillsPage() {
     return (
         <div>
             {skillsArray.map((skill, index) => (
-                <SkillsResult key={index} result={skill} />
+                <Result key={index} result={skill} />
             ))}
         </div>
     );

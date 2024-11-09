@@ -1,3 +1,5 @@
+import "./ClassicResult.css"
+
 interface ClassicResultProps {
     result: {
         title: string;

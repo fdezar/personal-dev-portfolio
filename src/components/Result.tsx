@@ -1,16 +1,17 @@
-import "./ParagraphResult.css"
+import "./Result.css"
 
-interface ParagraphEducationResultProps {
+interface ResultProps {
     result: {
         image: string;
         header: string;
+        subheader: string;
         url: string;
         title: string;
         description: string;
     };
 }
 
-const ParagraphEducationResult: React.FC<ParagraphEducationResultProps> = ({ result }) => {
+const Result: React.FC<ResultProps> = ({ result }) => {
 
     return (
         <div>
@@ -24,10 +25,9 @@ const ParagraphEducationResult: React.FC<ParagraphEducationResultProps> = ({ res
                     </div>
                     <div id="result-title-and-web">
                         <p>{result.header}</p>
-                        <p>{result.url}</p>
+                        <p>{result.subheader}</p>
                     </div>
                 </div>
-            {/* <a href="#" className="result-url">https://en.wikipedia.org/wiki/Gabriel_Fernandez</a> */}
                 <h3 id="result-title">{result.title}</h3>
                 </a>
                 
@@ -37,4 +37,4 @@ const ParagraphEducationResult: React.FC<ParagraphEducationResultProps> = ({ res
     )
 }
 
-export default ParagraphEducationResult;
+export default Result;

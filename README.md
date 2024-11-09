@@ -1,6 +1,6 @@
-# My Personal Portfolio (in construction)
+# My Portfolio (in construction)
 
-A personal developer portfolio built with React, showcasing projects, experience, and contact information.
+A personal developer portfolio built with React, showcasing projects, education, skills, experience, and contact information.
 
 ## Table of Contents 📑
 
@@ -15,7 +15,7 @@ A personal developer portfolio built with React, showcasing projects, experience
 
 ## About 📖
 
-This project is a personal developer portfolio designed to showcase my skills, projects, and experience in a single-page application (SPA) format. It includes various sections for projects, experience, and contact details.
+This project is a personal developer portfolio designed to showcase my skills, education, projects, and experience in a single-page application (SPA) format. It includes various sections for projects, education, skills, experience and contact details.
 
 ## Technologies 💻
 
@@ -101,6 +101,8 @@ This project is a personal developer portfolio designed to showcase my skills, p
 ## Features ✨
 
 - **Projects Section**: Showcases various projects with descriptions and links.
+- **Education Section**: Details educational background, certifications, and courses completed.
+- **Skills Section**: Lists my skills relevant to development and teamwork.
 - **Experience Section**: Highlights professional experience and relevant skills.
 - **Contact Section**: Provides a way to reach out via email or social media.
 

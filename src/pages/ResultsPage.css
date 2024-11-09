@@ -124,7 +124,7 @@ body {
 
 #results {
     max-width: 652px;
-    margin: 0 auto;
+    margin: 0 0 0 40px;
 }
 
 .featured-snippet {
@@ -170,12 +170,6 @@ body {
     color: #006621;
     text-decoration: none;
     margin-bottom: 5px;
-}
-
-.result-snippet {
-    font-size: 14px;
-    color: #4d5156;
-    line-height: 1.5;
 }
 
 #images-section {

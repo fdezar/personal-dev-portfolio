@@ -28,7 +28,6 @@ const ContactResult: React.FC<ContactResultProps> = ({ result }) => {
                         <p>{result.subheader}</p>
                     </div>
                 </div>
-            {/* <a href="#" className="result-url">https://en.wikipedia.org/wiki/Gabriel_Fernandez</a> */}
                 <h3 id="result-title">{result.title}</h3>
                 </a>
                 

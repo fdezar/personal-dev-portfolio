@@ -59,3 +59,9 @@
     text-decoration: inherit;
     color: inherit;
 }
+
+.result-snippet {
+    font-size: 14px;
+    color: #4d5156;
+    line-height: 1.5;
+}
