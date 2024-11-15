@@ -5,7 +5,7 @@ const educationArray = [
         image: "/src/assets/images/education-page/ironhack-spain-logo.jpeg",
         header: "Ironhack",
         subheader: "sep. 2023 - mar. 2024",
-        url: "sep. 2023 - mar. 2024",
+        url: "https://www.ironhack.com/es",
         title: "Web Development Bootcamp",
         description: `Syllabus:
             - FrontEnd: HTML5, CSS3, JavaScript ES6, Bootstrap.
@@ -19,7 +19,7 @@ const educationArray = [
         image: "/src/assets/images/education-page/freecodecamp-logo.jpeg",
         header: "freeCodeCamp",
         subheader: "ago. 2022 - ago. 2023",
-        url: "ago. 2022 - ago. 2023",
+        url: "https://www.freecodecamp.org",
         title: "freeCodeCamp",
         description: `4 Certificates of Completion | +1200h | Front End & Back End
 
@@ -34,7 +34,7 @@ const educationArray = [
         image: "/src/assets/images/education-page/udemy-logo.jpeg",
         header: "Udemy",
         subheader: "jul. 2024 - jul. 2024",
-        url: "jul. 2024 - jul. 2024",
+        url: "https://www.udemy.com/es/",
         title: "Udemy",
         description: `2 Certificates of Completion | Redux and Test Driven Development
 
@@ -47,7 +47,7 @@ const educationArray = [
         image: "/src/assets/images/education-page/edteam-logo.jpeg",
         header: "EDTeam",
         subheader: "jun. 2024 - jun. 2024",
-        url: "jun. 2024 - jun. 2024",
+        url: "https://ed.team/",
         title: "EDTeam",
         description: `2 Certificates of Completion | TypeScript and React Hooks
 
@@ -60,7 +60,7 @@ const educationArray = [
         image: "/src/assets/images/education-page/google-activate-logo.jpeg",
         header: "Google Activate",
         subheader: "jul. 2022 - ago. 2022",
-        url: "jul. 2022 - ago. 2022",
+        url: "https://grow.google/intl/es/courses-and-tools/",
         title: "Google Activate",
         description: `2 Certificates of Completion | HTML & CSS
 
@@ -73,7 +73,7 @@ const educationArray = [
         image: "/src/assets/images/education-page/university-of-barcelona-logo.jpeg",
         header: "University of Barcelona",
         subheader: "sept. 2021 - jul. 2023",
-        url: "sept. 2021 - jul. 2023",
+        url: "https://web.ub.edu/web/estudis/w/masteruniversitari-m0m0q",
         title: "Psychosocial Intervention Master's Degree",
         description: "Master's Degree in UB."
     },
@@ -81,7 +81,7 @@ const educationArray = [
         image: "/src/assets/images/education-page/university-of-girona-logo.jpeg",
         header: "University of Girona",
         subheader: "sept. 2017 - jun. 2021",
-        url: "sept. 2017 - jun. 2021",
+        url: "https://www.udg.edu/ca/estudia/Oferta-formativa/Graus/Fitxes?IDE=1411&ID=3101G0209",
         title: "Social Education Degree",
         description: "Social Education Degree in UdG."
     },
@@ -89,7 +89,7 @@ const educationArray = [
         image: "/src/assets/images/education-page/university-of-girona-logo.jpeg",
         header: "University of Girona",
         subheader: "oct. 2017",
-        url: "oct. 2017",
+        url: "https://www.udg.edu/es/llengues/cursos-i-examens/examens-oficials-i-tallers-de-preparacio",
         title: "B2 English Certificate",
         description: "B2 English."
     },
