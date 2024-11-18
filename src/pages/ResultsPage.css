@@ -124,7 +124,7 @@ body {
 
 #results {
     max-width: 652px;
-    margin: 0 0 0 40px;
+    margin: 0 0 0 70px;
 }
 
 .featured-snippet {
@@ -254,6 +254,7 @@ body {
     justify-content: center;
     align-items: center;
     width: 100%;
+    margin-top: 50px;
 }
 
 #results-gaaaabri-link {
@@ -262,7 +263,8 @@ body {
 }
 
 #gaaaabri-logo {
-    width: 35%;
+    width: 13%;
+    margin-bottom: 10px;
 }
 
 #results-footer {
