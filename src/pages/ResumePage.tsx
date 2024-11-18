@@ -33,8 +33,8 @@ function ResumePage() {
     return (
         <>
             <div id="featured-snippet">
-                <h2>Gabriel Fernandez</h2>
-                <p>Full Stack Developer</p>
+                <h2 id="resume-header">Gabriel Fernandez</h2>
+                <h4 id="resume-subheader">Full Stack Developer</h4>
                 {/* <a href="https://en.wikipedia.org/wiki/Gabriel_Fernandez" id="featured-snippet-url">en.wikipedia.org</a> */}
             </div>
 
@@ -46,7 +46,7 @@ function ResumePage() {
                         <img src="/src/assets/images/results-page/exquisite-project.png" id="images-third-image" alt="G3" />
                     </div>
                 </div>
-                <div id="featured-app">
+                {/* <div id="featured-app">
                     <div>Imagen
                         <img />
                     </div>
@@ -54,16 +54,14 @@ function ResumePage() {
                         <h5>Featured site</h5>
                         <p>Silk: </p>
                     </div>
-                </div>
+                </div> */}
             </section>
 
             <hr />
 
-            <ClassicResult result={ resumeArray[0] }/>
-            <ClassicResult result={ resumeArray[1] }/>
-            <ClassicResult result={ resumeArray[2] }/>
-            <ClassicResult result={ resumeArray[3] }/>
-            <ClassicResult result={ resumeArray[4] }/>
+            {resumeArray.map((project, index) => (
+                <ClassicResult key={index} result={project} />
+            ))}
         
             {/* <section id="news-section">
                 <h2>News</h2>

@@ -220,34 +220,4 @@ body {
         margin-left: 0;
         padding: 10px 22px;
     }
-    /* #landing-header-left, #landing-header-right {
-        display: none;
-    } */
-
-    /* #landing-header {
-        justify-content: center;
-    } */
-    
-    /* #landing-search-bar {
-        flex-direction: column;
-        padding: 10px;
-    } */
-/* 
-    #landing-search-input {
-        width: 100%;
-    } */
-
-    /* #landing-search-icons {
-        justify-content: center;
-        width: 100%;
-    } */
-
-    /* #landing-footer-bottom {
-        flex-direction: column;
-        align-items: center;
-    } */
-
-    /* #landingfooter a {
-        margin: 10px 0;
-    } */
 }

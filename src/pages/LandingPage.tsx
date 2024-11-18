@@ -51,7 +51,7 @@ function LandingPage() {
             </main>
             <footer id="landing-footer">
                 <div id="landing-footer-top">
-                    <p>Spain</p>
+                    <p>Barcelona</p>
                 </div>
                 <div id="landing-footer-bottom">
                     <div id="landing-footer-links-left">

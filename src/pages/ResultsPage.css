@@ -108,6 +108,10 @@ body {
     margin-bottom: 20px;
 }
 
+.tab:first-of-type {
+    margin-left: 70px;
+}
+
 .tab {
     margin-right: 20px;
     padding: 10px 0;
@@ -127,25 +131,22 @@ body {
     margin: 0 0 0 70px;
 }
 
-.featured-snippet {
-    margin-bottom: 30px;
+#featured-snippet {
+    margin-bottom: 15px;
 }
 
-.featured-snippet h2 {
-    font-size: 20px;
+#resume-header {
+    font-size: 28px;
     margin-bottom: 10px;
+    margin-top: 40px;
 }
 
-.featured-snippet p {
-    font-size: 16px;
+#resume-subheader {
+    font-weight: normal;
     color: #4d5156;
-    margin-bottom: 10px;
-}
-
-.featured-snippet-url {
-    font-size: 14px;
-    color: #1a0dab;
-    text-decoration: none;
+    font-size: 15px;
+    margin-top: 12px;
+    margin-bottom: 18px;
 }
 
 .result {
@@ -185,25 +186,26 @@ body {
 #images-container {
     display: flex;
     flex-direction: row;
-    gap: 10px;
+    gap: 3px;
 }
 
 #images-main-image {
-    width: calc(25% - 10px);
-    height: 200px;
+    width: 300px;
+    height: 284px;
     border-radius: 8px 0 0 8px;
 }
 
 #images-second-image {
     border-radius: 0 8px 0 0;
-    width: 100px;
-    height: 100px;
+    width: 240px;
+    height: 140px;
+    margin-bottom: 3px;
 }
 
 #images-third-image {
     border-radius: 0 0 8px 0;
-    width: 100px;
-    height: 100px;
+    width: 240px;
+    height: 141px;
 }
 
 #images-subcontainer {
@@ -211,41 +213,8 @@ body {
     flex-direction: column;
 }
 
-#news-section {
-    margin-bottom: 30px;
-}
-
-#news-section h2 {
-    font-size: 18px;
-    margin-bottom: 10px;
-}
-
-.news-item {
+hr {
     margin-bottom: 20px;
-}
-
-.news-title {
-    display: block;
-    font-size: 16px;
-    color: #1a0dab;
-    text-decoration: none;
-    margin-bottom: 5px;
-}
-
-.news-title:hover {
-    text-decoration: underline;
-}
-
-.news-snippet {
-    font-size: 14px;
-    color: #4d5156;
-    margin-bottom: 5px;
-}
-
-.news-source {
-    font-size: 12px;
-    color: #70757a;
-    text-decoration: none;
 }
 
 #results-gaaaabri {
@@ -263,7 +232,7 @@ body {
 }
 
 #gaaaabri-logo {
-    width: 13%;
+    width: 272px;
     margin-bottom: 10px;
 }
 
