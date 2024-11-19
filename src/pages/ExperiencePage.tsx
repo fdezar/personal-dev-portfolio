@@ -1,12 +1,9 @@
 import Result from "../components/Result.tsx";
-
-const importImage = (path: string) => {
-    return new URL(path, import.meta.url).toString();
-};
+import CoordinadoraLogo from "/src/assets/images/experience-page/coordinadora-entitats-poble-sec-logo.png";
 
 const experienceArray = [
     {
-        image: importImage("/src/assets/images/experience-page/coordinadora-entitats-poble-sec-logo.png"),
+        image: CoordinadoraLogo,
         header: "Coordinadora d'Entitats de Poble Sec",
         subheader: "feb. 2023 - apr. 2023",
         url: "https://poblesec.org/",
