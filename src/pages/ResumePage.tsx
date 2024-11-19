@@ -8,25 +8,25 @@ const resumeArray = [
         title: "My Projects",
         url: "https://portfoliogfernandez.vercel.app/results/projects",
         link: "/results/projects",
-        description: "Silk is the most prominent one! It's a MERN Stack project. Exquisite is also a Full Stack Project to get into consideration. But there's a lot more!"
+        description: "Silk is the standout project! It's built with the MERN Stack project and features Material UI interface. Exquisite is another noteworthy Full Stack Project worth highlighting. But there's also more to explore!"
     },
     {
         title: "My Skills",
         url: "https://portfoliogfernandez.vercel.app/results/skills",
         link: "/results/skills",
-        description: "React, NodeJS, ExpressJS, and MongoDB are my most dominant technologies. Still, there is much more! I also have an easiness to learn new ones."
+        description: "React, NodeJS, ExpressJS, and MongoDB are my core technologies. However, there's much more to my skill set! I also adapt quickly and easily to learning new ones."
     },
     {
         title: "My Education",
         url: "https://portfoliogfernandez.vercel.app/results/education",
         link: "/results/education",
-        description: "Ironhack Bootcamp, freeCodeCamp, Udemy and Google Activate are featured! I also have a background in Social Education that made me have a lot of soft skills and teamwork capacities that well trascends into web development."
+        description: "The Ironhack Bootcamp, freeCodeCamp, Udemy and Google Activate are among the highlighted! Additionaly, my background in Social Education has equipped me with strong soft skills and teamwork abilities that seamlessly translate into web development."
     },
     {
         title: "Want to work with me?",
         url: "https://portfoliogfernandez.vercel.app/results/contact",
         link: "/results/contact",
-        description: "Go to my contact page! You will also find my GitHub and my LinkedIn, updated with my latest works and publications."
+        description: "Interested in connecting? Head over to my contact page! You will also find links to my GitHub and LinkedIn, both updated with my latest projects and posts."
     },
 ]
 
