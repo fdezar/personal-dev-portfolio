@@ -1,4 +1,5 @@
 import ClassicResult from "../components/ClassicResult";
+import GabriIronhackImage from "/src/assets/images/results-page/gabri-ironhack-image.png";
 
 const resumeArray = [
     {
@@ -34,7 +35,7 @@ function ResumePage() {
 
             <section id="images-section">
                 <div id="images-container">
-                    <img src="/src/assets/images/results-page/gabri-ironhack-image.png" id="images-main-image" alt="G1" />
+                    <img src={GabriIronhackImage} id="images-main-image" alt="G1" />
                     <div id="images-subcontainer">
                         <img src="/src/assets/images/results-page/silk-project.png" id="images-second-image" alt="G2" />
                         <img src="/src/assets/images/results-page/exquisite-project.png" id="images-third-image" alt="G3" />
