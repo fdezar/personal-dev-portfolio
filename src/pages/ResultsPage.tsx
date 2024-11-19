@@ -6,6 +6,9 @@ import SkillsPage from "./SkillsPage";
 import ExperiencePage from "./ExperiencePage";
 import ContactPage from "./ContactPage";
 import { Link, Routes, Route, useLocation } from 'react-router-dom';
+import GaabriLogo from "/src/assets/images/gaabri-logo.png";
+import UserImage from "/src/assets/images/gabri-user-image.png";
+import GaaaabriLogo from "/src/assets/images/results-page/gaaaabri-logo.png";
 
 function ResultsPage() {
     const location = useLocation();
@@ -17,8 +20,7 @@ function ResultsPage() {
             <header id="results-header">
                 <div id="results-main-logo">
                     <Link to="/">
-                        {/* <img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_92x30dp.png" alt="Google Logo" /> */}
-                        <img src="/src/assets/images/gaabri-logo.png" alt="Gaabri Logo" />
+                        <img src={GaabriLogo} alt="Gaabri Logo" />
                     </Link>
                 </div>
                 <div id="results-search-bar">
@@ -33,18 +35,12 @@ function ResultsPage() {
                             <span className="material-symbols-outlined">apps</span>
                         </Link>
                     </div>
-                    {/* <div id="results-apps-icon">
-                        <img src="https://www.gstatic.com/images/branding/product/1x/gsa_white_24dp.png" alt="Google Apps" />
-                    </div> */}
                     <div id="results-user-icon">
-                        <img src="/src/assets/images/gabri-user-image.png" alt="User Icon" />
+                        <img src={UserImage} alt="User Icon" />
                     </div>
                 </div>
             </header>
             <main id="results-main-section">
-                {/* <div id="results-info">
-                    <p>About 1,230,000,000 results (0.45 seconds)</p>
-                </div> */}
                 <nav id="tabs">
                     <Link to="/results" className={`tab ${isActive('/results') ? 'active' : ''}`}>Resume</Link>
                     <Link to="/results/projects" className={`tab ${isActive('/results/projects') ? 'active' : ''}`}>Projects</Link>
@@ -64,7 +60,7 @@ function ResultsPage() {
                    </Routes>
                 </section>
                 <div id="results-gaaaabri">
-                        <img src="/src/assets/images/results-page/gaaaabri-logo.png" id="gaaaabri-logo" />
+                        <img src={GaaaabriLogo} id="gaaaabri-logo" />
                         <Link to="/results" id="results-gaaaabri-link">1</Link>
                 </div>
             </main>

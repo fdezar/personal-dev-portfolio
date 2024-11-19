@@ -1,6 +1,8 @@
 import "./LandingPage.css";
 import TypingEffect from "../components/TypingEffect";
 import { Link } from 'react-router-dom';
+import GaabriLogo from "/src/assets/images/gaabri-logo.png";
+import UserImage from "/src/assets/images/gabri-user-image.png"
 
 function LandingPage() {
 
@@ -17,14 +19,14 @@ function LandingPage() {
                     </div>
                     <div id="landing-user-icon">
                         <Link to="/results">
-                        <img src="/src/assets/images/gabri-user-image.png" alt="User Icon" />
+                        <img src={UserImage} alt="User Icon" />
                         </Link>
                     </div>
                 </div>
             </header>
             <main id="landing-main">
                 <div id="landing-logo">
-                    <img src="../../src/assets/images/gaabri-logo.png" alt="Gaabri Logo" />
+                    <img src={GaabriLogo} alt="Gaabri Logo" />
                 </div>
                 <div id="landing-search-bar">
                 <span className="material-symbols-outlined search-icon">search</span>
