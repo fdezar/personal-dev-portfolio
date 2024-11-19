@@ -1,4 +1,4 @@
-# My Portfolio (in construction)
+# My Portfolio
 
 A personal developer portfolio built with React, showcasing projects, education, skills, experience, and contact information.
 
