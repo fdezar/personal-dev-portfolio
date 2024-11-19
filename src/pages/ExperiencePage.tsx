@@ -1,5 +1,8 @@
 import Result from "../components/Result.tsx";
 import CoordinadoraLogo from "/src/assets/images/experience-page/coordinadora-entitats-poble-sec-logo.png";
+import PlataformaEducativaLogo from "/src/assets/images/experience-page/plataforma-educativa-logo.jpeg";
+import XiprersLogo from "/src/assets/images/experience-page/xiprers-al-vent-logo.jpeg";
+import CaritasLogo from "/src/assets/images/experience-page/caritas-logo.png";
 
 const experienceArray = [
     {
@@ -15,7 +18,7 @@ const experienceArray = [
         `
     },
     {
-        image: "/src/assets/images/experience-page/plataforma-educativa-logo.jpeg",
+        image: PlataformaEducativaLogo,
         header: "Plataforma Educativa",
         subheader: "dec. 2020 - feb. 2021",
         url: "https://plataformaeducativa.org/portal/",
@@ -27,7 +30,7 @@ const experienceArray = [
         `
     },
     {
-        image: "/src/assets/images/experience-page/plataforma-educativa-logo.jpeg",
+        image: PlataformaEducativaLogo,
         header: "Plataforma Educativa",
         subheader: "oct. 2020 - jan. 2021",
         url: "https://plataformaeducativa.org/portal/",
@@ -39,7 +42,7 @@ const experienceArray = [
         `
     },
     {
-        image: "/src/assets/images/experience-page/xiprers-al-vent-logo.jpeg",
+        image: XiprersLogo,
         header: "AEIG Xiprers al Vent",
         subheader: "sept. 2018 - aug. 2020",
         url: "https://www.instagram.com/aeigxiprersalvent/?hl=es",
@@ -50,7 +53,7 @@ const experienceArray = [
         `
     },
     {
-        image: "/src/assets/images/experience-page/caritas-logo.png",
+        image: CaritasLogo,
         header: "Càritas Diocesana de Girona",
         subheader: "nov. 2019 - mar. 2020",
         url: "https://www.caritasgirona.cat/",
