@@ -2,7 +2,7 @@ import Result from "../components/Result.tsx";
 
 const experienceArray = [
     {
-        image: "/src/assets/images/experience-page/coordinadora-entitats-poble-sec-logo.png",
+        image: require("/src/assets/images/experience-page/coordinadora-entitats-poble-sec-logo.png"),
         header: "Coordinadora d'Entitats de Poble Sec",
         subheader: "feb. 2023 - apr. 2023",
         url: "https://poblesec.org/",
