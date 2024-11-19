@@ -128,7 +128,7 @@ body {
 #landing-main-buttons {
     margin-top: 20px;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
 }
 
@@ -200,9 +200,6 @@ body {
 }
 
 @media (min-width: 768px) {
-    #landing-main-buttons {
-        flex-direction: row;
-    }
 
     #landing-search-button, #landing-lucky-button {
         width: auto;

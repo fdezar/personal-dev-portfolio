@@ -11,7 +11,6 @@ body {
     align-items: center;
     justify-content: space-between;
     padding: 10px 20px;
-    /* border-bottom: 1px solid #dfe1e5; */
     background-color: #fff;
     position: sticky;
     top: 0;
@@ -32,12 +31,13 @@ body {
 }
 
 #results-search-input {
-    flex: 1;
+    flex: none;
     padding: 10px;
     font-size: 16px;
     border: 1px solid #dfe1e5;
     border-radius: 24px 0 0 24px;
     outline: none;
+    width: 30%;
 }
 
 #results-search-button {
@@ -175,14 +175,8 @@ body {
 }
 
 #images-section {
-    margin-bottom: 30px;
+    margin-bottom: 24px;
 }
-
-/* 
-#images-section h2 {
-    font-size: 18px;
-    margin-bottom: 10px;
-} */
 
 #images-container {
     display: flex;
@@ -198,15 +192,15 @@ body {
 
 #images-second-image {
     border-radius: 0 8px 0 0;
-    width: 240px;
-    height: 140px;
+    width: 238px;
+    height: 139px;
     margin-bottom: 3px;
 }
 
 #images-third-image {
     border-radius: 0 0 8px 0;
-    width: 240px;
-    height: 141px;
+    width: 238px;
+    height: 139px;
 }
 
 #images-subcontainer {
@@ -216,6 +210,10 @@ body {
 
 hr {
     margin-bottom: 20px;
+    margin-right: auto;
+    margin-left: 0;
+    width: 83%;
+    background-color: red;
 }
 
 #results-gaaaabri {
@@ -272,11 +270,44 @@ hr {
     }
 
     #results {
-        width: 100%;
+        width: 85%;
+        margin: 0 0 0 25px;
         padding: 0 10px;
     }
 
-    #images-container img {
-        width: calc(50% - 10px);
+    #results-search-input {
+        width: 90%;
+    }
+
+    .tab:first-of-type {
+        margin-left: 40px;
+    }
+
+    /* #images-container img {
+        width: calc(80% - 10px);
+        height: calc(80% - 10px);
+    } */
+
+    #images-main-image {
+        width: 240px;
+        height: 227.2px;
+        border-radius: 8px 0 0 8px;
+    }
+    
+    #images-second-image {
+        border-radius: 0 8px 0 0;
+        width: 191px;
+        height: 111px;
+        margin-bottom: 3px;
+    }
+    
+    #images-third-image {
+        border-radius: 0 0 8px 0;
+        width: 191px;
+        height: 110.8px;
+    }
+
+    hr {
+        width: 95.8%;
     }
 }

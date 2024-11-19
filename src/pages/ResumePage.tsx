@@ -41,10 +41,10 @@ function ResumePage() {
 
             <section id="images-section">
                 <div id="images-container">
-                    <img src={GabriIronhackImage} id="images-main-image" alt="G1" />
+                    <a href="https://www.linkedin.com/in/gabrielfdez" className="resume-images-a"><img src={GabriIronhackImage} id="images-main-image" alt="G1" /></a>
                     <div id="images-subcontainer">
-                        <img src={SilkProjectImage} id="images-second-image" alt="G2" />
-                        <img src={ExquisiteProjectImage} id="images-third-image" alt="G3" />
+                        <a href="https://silk-project.vercel.app" className="resume-images-a"><img src={SilkProjectImage} id="images-second-image" alt="G2" /></a>
+                        <a href="https://exquisite-project.vercel.app" className="resume-images-a"><img src={ExquisiteProjectImage} id="images-third-image" alt="G3" /></a>
                     </div>
                 </div>
             </section>
