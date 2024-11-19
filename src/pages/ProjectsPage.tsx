@@ -2,7 +2,7 @@ import Result from "../components/ProjectsResult";
 
 const projectsArray = [
     {
-        image: "/public/images/projects-page/silk-logo.png",
+        image: "/images/projects-page/silk-logo.png",
         header: "Silk",
         url: "https://silk-project.vercel.app",
         title: "Silk",
