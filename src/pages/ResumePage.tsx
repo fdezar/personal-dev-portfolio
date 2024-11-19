@@ -4,27 +4,22 @@ const resumeArray = [
     {
         title: "My Projects",
         url: "/projects",
-        description: "See some of my projects!"
+        description: "Silk is the most prominent one! It's a MERN Stack project. Exquisite is also a Full Stack Project to get into consideration. But there's a lot more!"
     },
     {
         title: "My Skills",
         url: "/skills",
-        description: "React, NodeJS, ExpressJS, TypeScript"
+        description: "React, NodeJS, ExpressJS, and MongoDB are my most dominant technologies. Still, there is much more! I also have an easiness to learn new ones."
     },
     {
         title: "My Education",
         url: "https://projects",
-        description: "See some of my projects!"
+        description: "Ironhack Bootcamp, freeCodeCamp, Udemy and Google Activate are featured! I also have a background in Social Education that made me have a lot of soft skills and teamwork capacities that well trascends into web development."
     },
     {
-        title: "What I'm working on right now?",
+        title: "Want to work with me?",
         url: "https://www.github.com/fdezar",
-        description: "My GitHub is always updated with my latest works."
-    },
-    {
-        title: "My latest LinkedIn publications",
-        url: "https://www.linkedin.com/in/gabrielfdez",
-        description: "Sometimes I share my activity on LinkedIn. Watch out the latest!"
+        description: "Go to my contact page! You will also find my GitHub and my LinkedIn, updated with my latest works and publications."
     },
 ]
 
@@ -34,8 +29,7 @@ function ResumePage() {
         <>
             <div id="featured-snippet">
                 <h2 id="resume-header">Gabriel Fernandez</h2>
-                <h4 id="resume-subheader">Full Stack Developer</h4>
-                {/* <a href="https://en.wikipedia.org/wiki/Gabriel_Fernandez" id="featured-snippet-url">en.wikipedia.org</a> */}
+                <h4 id="resume-subheader">Full Stack Developer residing in Barcelona</h4>
             </div>
 
             <section id="images-section">
@@ -46,15 +40,6 @@ function ResumePage() {
                         <img src="/src/assets/images/results-page/exquisite-project.png" id="images-third-image" alt="G3" />
                     </div>
                 </div>
-                {/* <div id="featured-app">
-                    <div>Imagen
-                        <img />
-                    </div>
-                    <div>
-                        <h5>Featured site</h5>
-                        <p>Silk: </p>
-                    </div>
-                </div> */}
             </section>
 
             <hr />
@@ -62,45 +47,6 @@ function ResumePage() {
             {resumeArray.map((project, index) => (
                 <ClassicResult key={index} result={project} />
             ))}
-        
-            {/* <section id="news-section">
-                <h2>News</h2>
-                <div className="news-item">
-                    <a href="#" className="news-title">What I'm working on right now?</a>
-                    <p className="news-snippet">Continuing my portfolio adventures.</p>
-                    <a href="#" className="news-source">Gabriel News Network - 3 hours ago</a>
-                </div>
-                <div className="news-item">
-                    <a href="#" className="news-title">My latest LinkedIn publications</a>
-                    <p className="news-snippet">Inspiring.</p>
-                    <a href="#" className="news-source">Fernandez - 5 hours ago</a>
-                </div>
-            </section> */}
-
-            <aside>
-                <div>
-
-                </div>
-                <div>
-
-                </div>
-                <div>
-                    <div>
-                        Localización
-                    </div>
-                    <div>
-                        Ocupación
-                    </div>
-                    <div>
-                        Áreas más dominantes
-                    </div>
-                </div>
-                <hr></hr>
-                <div>
-                    Want to work with me?
-                </div>
-                <button>Contact</button>
-            </aside>
         </>
     )
 }

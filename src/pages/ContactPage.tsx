@@ -44,6 +44,7 @@ function ContactPage() {
             {contactArray.map((experience, index) => (
                 <ContactResult key={index} result={experience} />
             ))}
+            <div id="white-space"></div>
         </div>
     )
 }

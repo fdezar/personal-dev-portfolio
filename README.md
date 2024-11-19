@@ -106,10 +106,10 @@ This project is a personal developer portfolio designed to showcase my skills, e
 - **Experience Section**: Highlights professional experience and relevant skills.
 - **Contact Section**: Provides a way to reach out via email or social media.
 
-## Contributing 🤝
-
-Contributions are welcome! Please open an issue or submit a pull request.
-
 ## License 📜
 
 This project is licensed under the MIT License.
+
+## Deploy Link 🚀
+
+Coming soon!

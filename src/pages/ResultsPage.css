@@ -249,6 +249,10 @@ hr {
     color: #5f6368;
 }
 
+#white-space {
+    height: 180px;
+}
+
 @media (max-width: 767px) {
     #results-header {
         flex-direction: column;
