@@ -7,21 +7,25 @@ const resumeArray = [
     {
         title: "My Projects",
         url: "https://portfoliogfernandez.vercel.app/results/projects",
+        link: "/results/projects",
         description: "Silk is the most prominent one! It's a MERN Stack project. Exquisite is also a Full Stack Project to get into consideration. But there's a lot more!"
     },
     {
         title: "My Skills",
         url: "https://portfoliogfernandez.vercel.app/results/skills",
+        link: "/results/skills",
         description: "React, NodeJS, ExpressJS, and MongoDB are my most dominant technologies. Still, there is much more! I also have an easiness to learn new ones."
     },
     {
         title: "My Education",
         url: "https://portfoliogfernandez.vercel.app/results/education",
+        link: "/results/education",
         description: "Ironhack Bootcamp, freeCodeCamp, Udemy and Google Activate are featured! I also have a background in Social Education that made me have a lot of soft skills and teamwork capacities that well trascends into web development."
     },
     {
         title: "Want to work with me?",
         url: "https://portfoliogfernandez.vercel.app/results/contact",
+        link: "/results/contact",
         description: "Go to my contact page! You will also find my GitHub and my LinkedIn, updated with my latest works and publications."
     },
 ]

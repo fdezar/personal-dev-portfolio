@@ -7,3 +7,7 @@
 .classic-result-title {
     margin-bottom: 4px;
 }
+
+#react-router-link {
+    text-decoration: none;
+}
