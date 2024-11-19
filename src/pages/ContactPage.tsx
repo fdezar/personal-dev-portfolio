@@ -1,8 +1,12 @@
 import ContactResult from "../components/ContactResult";
+import EmailLogo from "/src/assets/images/contact-page/email-icon.png";
+import GitHubLogo from "/src/assets/images/contact-page/github-logo.png";
+import LinkedInLogo from "/src/assets/images/contact-page/linkedin-logo.webp";
+import PhoneLogo from "/src/assets/images/contact-page/phone-icon.png";
 
 const contactArray = [
     {
-        image: "/src/assets/images/contact-page/email-icon.png",
+        image: EmailLogo,
         header: "Email",
         subheader: "gfernandezareas@gmail.com",
         url: "mailto:gfernandezareas@gmail.com",
@@ -10,7 +14,7 @@ const contactArray = [
         description: "Click here to write me an email!"
     },
     {
-        image: "/src/assets/images/contact-page/github-logo.png",
+        image: GitHubLogo,
         header: "GitHub",
         subheader: "https://www.github.com/fdezar",
         url: "https://www.github.com/fdezar",
@@ -18,7 +22,7 @@ const contactArray = [
         description: "See my latest projects!"
     },
     {
-        image: "/src/assets/images/contact-page/linkedin-logo.webp",
+        image: LinkedInLogo,
         header: "LinkedIn",
         subheader: "https://www.linkedin.com/in/gabrielfdez",
         url: "https://www.linkedin.com/in/gabrielfdez",
@@ -26,7 +30,7 @@ const contactArray = [
         description: "Follow my latest publications!"
     },
     {
-        image: "/src/assets/images/contact-page/phone-icon.png",
+        image: PhoneLogo,
         header: "Phone",
         subheader: "Ask for it!",
         url: "",
