@@ -1,8 +1,15 @@
 import Result from "../components/Result";
+import IronhackLogo from "/src/assets/images/education-page/ironhack-spain-logo.jpeg";
+import FreeCodeCampLogo from "/src/assets/images/education-page/freecodecamp-logo.jpeg";
+import UdemyLogo from "/src/assets/images/education-page/udemy-logo.jpeg";
+import EdTeamLogo from "/src/assets/images/education-page/edteam-logo.jpeg";
+import GoogleActivateLogo from "/src/assets/images/education-page/google-activate-logo.jpeg";
+import UniversityOfBarcelonaLogo from "/src/assets/images/education-page/university-of-barcelona-logo.jpeg";
+import UniversityOfGironaLogo from "/src/assets/images/education-page/university-of-girona-logo.jpeg";
 
 const educationArray = [
     {
-        image: "/src/assets/images/education-page/ironhack-spain-logo.jpeg",
+        image: IronhackLogo,
         header: "Ironhack",
         subheader: "sep. 2023 - mar. 2024",
         url: "https://www.ironhack.com/es",
@@ -16,7 +23,7 @@ const educationArray = [
         `
     },
     {
-        image: "/src/assets/images/education-page/freecodecamp-logo.jpeg",
+        image: FreeCodeCampLogo,
         header: "freeCodeCamp",
         subheader: "ago. 2022 - ago. 2023",
         url: "https://www.freecodecamp.org",
@@ -31,7 +38,7 @@ const educationArray = [
         `
     },
     {
-        image: "/src/assets/images/education-page/udemy-logo.jpeg",
+        image: UdemyLogo,
         header: "Udemy",
         subheader: "jul. 2024 - jul. 2024",
         url: "https://www.udemy.com/es/",
@@ -44,7 +51,7 @@ const educationArray = [
         `
     },
     {
-        image: "/src/assets/images/education-page/edteam-logo.jpeg",
+        image: EdTeamLogo,
         header: "EDTeam",
         subheader: "jun. 2024 - jun. 2024",
         url: "https://ed.team/",
@@ -57,7 +64,7 @@ const educationArray = [
         `
     },
     {
-        image: "/src/assets/images/education-page/google-activate-logo.jpeg",
+        image: GoogleActivateLogo,
         header: "Google Activate",
         subheader: "jul. 2022 - ago. 2022",
         url: "https://grow.google/intl/es/courses-and-tools/",
@@ -70,7 +77,7 @@ const educationArray = [
         `
     },
     {
-        image: "/src/assets/images/education-page/university-of-barcelona-logo.jpeg",
+        image: UniversityOfBarcelonaLogo,
         header: "University of Barcelona",
         subheader: "sept. 2021 - jul. 2023",
         url: "https://web.ub.edu/web/estudis/w/masteruniversitari-m0m0q",
@@ -78,7 +85,7 @@ const educationArray = [
         description: "Master's Degree in UB."
     },
     {
-        image: "/src/assets/images/education-page/university-of-girona-logo.jpeg",
+        image: UniversityOfGironaLogo,
         header: "University of Girona",
         subheader: "sept. 2017 - jun. 2021",
         url: "https://www.udg.edu/ca/estudia/Oferta-formativa/Graus/Fitxes?IDE=1411&ID=3101G0209",
@@ -86,7 +93,7 @@ const educationArray = [
         description: "Social Education Degree in UdG."
     },
     {
-        image: "/src/assets/images/education-page/university-of-girona-logo.jpeg",
+        image: UniversityOfGironaLogo,
         header: "University of Girona",
         subheader: "oct. 2017",
         url: "https://www.udg.edu/es/llengues/cursos-i-examens/examens-oficials-i-tallers-de-preparacio",
