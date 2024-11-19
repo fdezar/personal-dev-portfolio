@@ -211,6 +211,10 @@ body {
 
 @media (max-width: 767px) {
 
+    #landing-search-bar {
+        width: 75%;
+    }
+
     #landing-search-button {
         margin-right: 1px;
     }
